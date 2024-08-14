@@ -16,6 +16,7 @@ module.exports = {
 				'style',
 				'docs',
 				'config',
+				'package',
 			],
 		],
 		'scope-case': [2, 'always', 'kebab-case'],
