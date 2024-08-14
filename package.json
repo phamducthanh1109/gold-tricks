@@ -8,8 +8,6 @@
 		"generate": "nuxt generate",
 		"preview": "nuxt preview",
 		"postinstall": "nuxt prepare",
-		"lint": "eslint .",
-		"lint:fix": "eslint . --fix",
 		"prepare": "husky",
 		"lint-staged": "lint-staged"
 	},
@@ -33,7 +31,7 @@
 	},
 	"lint-staged": {
 		"*": [
-			"npm run lint:fix",
+			"eslint . --fix",
 			"git add ."
 		]
 	}
