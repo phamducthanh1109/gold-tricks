@@ -15,7 +15,14 @@ export default defineNuxtConfig({
 		checker: false,
 	},
 	modules: ['@nuxt/eslint', '@nuxt/ui'],
-	colorMode: {
-		preference: 'light',
+	css: ['@/assets/css/main.css', '@/assets/scss/global.scss'],
+	vite: {
+		css: {
+			preprocessorOptions: {
+				scss: {
+					additionalData: '@use "@/assets/scss/_mixins.scss" as *;',
+				},
+			},
+		},
 	},
 });

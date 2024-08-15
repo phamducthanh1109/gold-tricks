@@ -12,5 +12,6 @@ export default withNuxt({
 		'@typescript-eslint/no-unused-vars': 'warn',
 		'vue/script-indent': 'off',
 		'vue/html-indent': 'off',
+		'vue/max-attributes-per-line': 'off',
 	},
 });
