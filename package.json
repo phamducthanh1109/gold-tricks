@@ -4,9 +4,10 @@
 	"type": "module",
 	"scripts": {
 		"build": "nuxt build",
-		"dev": "bash .githooks/main.sh && nuxt dev",
-		"generate": "nuxt generate",
 		"preview": "nuxt preview",
+		"generate": "nuxt generate",
+		"dev": "bash .githooks/main.sh && nuxt dev",
+		"postinstall": "nuxt prepare && bash .githooks/main.sh",
 		"lint-staged": "lint-staged"
 	},
 	"dependencies": {
