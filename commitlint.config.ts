@@ -20,6 +20,7 @@ module.exports = {
 				'config',
 				'npm',
 				'chore',
+				'delete',
 			],
 		],
 		'scope-case': [2, 'always', 'kebab-case'],
@@ -27,6 +28,5 @@ module.exports = {
 		'scope-min-length': [2, 'always', 0],
 		'scope-max-length': [2, 'always', 20],
 		'subject-max-length': [2, 'always', 60],
-		'subject-full-stop': [2, 'always', '.'],
 	},
 };
