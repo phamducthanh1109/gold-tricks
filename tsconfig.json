@@ -1,10 +1,10 @@
 {
-  "extends": "./.nuxt/tsconfig.json",
-  "compilerOptions": {
-    "noImplicitAny": false,
-    "typeRoots": [
-      // Adding Custom Type Definitions for Existing Libraries:
-      // https://www.credera.com/en-us/insights/typescript-adding-custom-type-definitions-for-existing-libraries
-    ]
-  }
+	"extends": "./.nuxt/tsconfig.json",
+	"compilerOptions": {
+		"noImplicitAny": false,
+		"typeRoots": [
+			// Adding Custom Type Definitions for Existing Libraries:
+			// https://www.credera.com/en-us/insights/typescript-adding-custom-type-definitions-for-existing-libraries
+		]
+	}
 }
