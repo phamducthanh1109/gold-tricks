@@ -1,4 +1,7 @@
 #! /usr/bin/bash
+RED='\033[0;31m'
+RESET='\033[0m'
+
 if [ ! -e ".git" ]; then 
   [[ $TRESHOLD =~ ^[0-9]+$ ]] || \
      { echo -e "${RED}✘ Error: .git cant't be found!${RESET}"; exit $ERRCODE; }
