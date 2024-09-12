@@ -1,4 +1,9 @@
 #! /usr/bin/bash
+if [ ! -e ".git" ]; then 
+  [[ $TRESHOLD =~ ^[0-9]+$ ]] || \
+     { echo -e "${RED}✘ Error: .git cant't be found!${RESET}"; exit $ERRCODE; }
+fi
+
 if [ ! -e "./.husky" ]; then
   npx husky &
   wait
