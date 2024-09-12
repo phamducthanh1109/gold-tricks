@@ -1,23 +1,23 @@
 {
-	"files.autoSave": "onFocusChange", // optional but recommended
-	"files.associations": {
-		"*.css": "tailwindcss",
-		"*.scss": "tailwindcss"
-	},
-	// --------------------------------------------------------------------------------------
-	"editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
-	"editor.formatOnType": false, // required
-	"editor.formatOnPaste": false, // optional
-	"editor.formatOnSave": true, // optional
-	"editor.formatOnSaveMode": "file", // required to format on save
-	"editor.guides.bracketPairs": "active",
-	"editor.tabSize": 2,
-	// --------------------------------------------------------------------------------------
-	"prettier.bracketSameLine": true,
-	"prettier.enableDebugLogs": true,
-	// --------------------------------------------------------------------------------------
-	"vs-code-prettier-eslint.prettierLast": false, // set as "true" to run 'prettier' last not first
-	// --------------------------------------------------------------------------------------
-	"css.lint.unknownAtRules": "ignore",
-	"scss.lint.unknownAtRules": "ignore"
+  "files.autoSave": "onFocusChange", // optional but recommended
+  "files.associations": {
+    "*.css": "tailwindcss",
+    "*.scss": "tailwindcss"
+  },
+  // --------------------------------------------------------------------------------------
+  "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+  "editor.formatOnType": false, // required
+  "editor.formatOnPaste": false, // optional
+  "editor.formatOnSave": true, // optional
+  "editor.formatOnSaveMode": "file", // required to format on save
+  "editor.guides.bracketPairs": "active",
+  "editor.tabSize": 2,
+  // --------------------------------------------------------------------------------------
+  "prettier.bracketSameLine": true,
+  "prettier.enableDebugLogs": true,
+  // --------------------------------------------------------------------------------------
+  "vs-code-prettier-eslint.prettierLast": false, // set as "true" to run 'prettier' last not first
+  // --------------------------------------------------------------------------------------
+  "css.lint.unknownAtRules": "ignore",
+  "scss.lint.unknownAtRules": "ignore"
 }
