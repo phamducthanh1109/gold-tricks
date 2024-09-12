@@ -1,9 +1,9 @@
 module.exports = {
 	extends: ['@commitlint/config-conventional'],
 	rules: {
-		'type-empty': [1, 'never'],
-		'scope-empty': [1, 'never'],
-		'subject-empty': [1, 'never'],
+		'type-empty': [2, 'never'],
+		'scope-empty': [2, 'never'],
+		'subject-empty': [2, 'never'],
 		'type-enum': [
 			2,
 			'always',
@@ -11,7 +11,7 @@ module.exports = {
 				'bugFix',
 				'hotFix',
 				'crFix',
-				'feat',
+				'feature',
 				'release',
 				'refactor',
 				'revert',
@@ -23,6 +23,7 @@ module.exports = {
 				'delete',
 			],
 		],
+		'type-case': [2, 'always', ['camel-case', 'lower-case']],
 		'scope-case': [2, 'always', 'kebab-case'],
 		'subject-case': [2, 'always', ['lower-case']],
 		'scope-min-length': [2, 'always', 0],

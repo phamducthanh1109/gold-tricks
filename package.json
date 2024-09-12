@@ -33,12 +33,13 @@
 	},
 	"lint-staged": {
 		"*": [
-			"eslint . --fix",
+			"prettier --write .",
+			"eslint . --quiet --fix",
 			"git add ."
 		]
 	},
 	"validate-branch-name": {
-		"pattern": "^(bugfix|hotfix|crfix|feat|release|refactor|revert|style|docs|config|npm|chore|delete)/.+$",
+		"pattern": "^(bugfix|hotfix|crfix|features|release|refactor|revert|style|docs|config|npm|chore|delete)/.+$",
 		"errorMsg": "Branch name invalid!"
 	}
 }
